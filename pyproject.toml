@@ -1,7 +1,9 @@
 [project]
 name = "fastapi"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tutorial for using fast api"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi[standard]"
+]
